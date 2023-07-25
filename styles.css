@@ -9,13 +9,20 @@ body {
 .content {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .sidebar {
+    background-image: url(./images/andrew-james-lQA8GRqgczY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
+    background-position: top left 25%;
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+    flex: 1 1 40%;
 }
 
 .logo {
@@ -28,7 +35,12 @@ body {
     height: 50px;
 }
 
+
 .main {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    flex: 1 1 60%;
+
+
 }
