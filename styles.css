@@ -31,6 +31,9 @@ body {
     display: flex;
     flex-direction: row;
     font-size:xx-large;
+    margin-top: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo img {
@@ -40,6 +43,10 @@ body {
 .logo, .photo-credit {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
+}
+
+.photo-credit {
+    margin-top: auto;
 }
 
 a {
