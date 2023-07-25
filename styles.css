@@ -13,6 +13,8 @@ body {
     align-items: center;
 }
 
+/* Left hand side*/
+
 .sidebar {
     background-image: url(./images/dancer-compressed.jpg);
     background-repeat: no-repeat;
@@ -44,12 +46,23 @@ a {
     color: beige;
 }
 
+/* Right hand side*/
 
 .main {
     display: flex;
     flex-direction: column;
     height: 100vh;
     flex: 1 1 60%;
+    justify-content: center;
+}
 
+.register form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
+.register form div {
+    width: 40%;
 }
