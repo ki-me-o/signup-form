@@ -1,0 +1,23 @@
+body {
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    font-size:xx-large;
+}
+
+.logo img {
+    height: 50px
+}
