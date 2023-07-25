@@ -35,6 +35,15 @@ body {
     height: 50px;
 }
 
+.logo, .photo-credit {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+a {
+    color: beige;
+}
+
 
 .main {
     display: flex;
