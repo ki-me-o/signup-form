@@ -2,6 +2,10 @@
     outline: 1px solid red;
 }
 
+h1, h2, p {
+    margin: 0;
+}
+
 body {
     font-family: sans-serif;
 }
@@ -84,20 +88,25 @@ a {
 
 
 .register {
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
 }
 
 .register form{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: start;
 }
+
 
 .register form div {
     width: 40%;
     display: flex;
     flex-direction: column;
+    margin-right: 10%;
+    margin-bottom: 10px;
 }
 
 input {
