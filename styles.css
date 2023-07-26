@@ -102,7 +102,7 @@ a {
 
 
 .register form div {
-    width: 40%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     margin-right: 10%;
@@ -112,6 +112,7 @@ a {
 input {
     border-radius: 5px;
     border-color: #E5E7EB;
+    height: 20px;
 }
 
 .account {
