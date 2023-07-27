@@ -82,8 +82,8 @@ a {
 
 .rundown {
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
     padding-right: 30%;
     font-size: 150%;
     font-weight: 550;
