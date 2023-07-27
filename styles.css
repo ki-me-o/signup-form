@@ -7,7 +7,7 @@ h1, h2, p {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 .content {
@@ -76,7 +76,7 @@ a {
 
 .rundown,
 .account {
-    background-color:rgb(226, 226, 226);
+    background-color:#d3cdb3;
     flex-grow: 1;
 }
 
@@ -84,13 +84,16 @@ a {
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-start;
+    padding-right: 30%;
+    font-size: 150%;
+    font-weight: 550;
 }
 
 
 .register {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
 }
 
 .register form{
@@ -122,7 +125,18 @@ input {
 }
 
 .account button {
+    background-color: turquoise;
+    color: white;
     display: block;
-    width: 40%;
-    padding: 15px;
+    width: 30%;
+    height: 20%;
+    font-size: 150%;
+    font-weight: bold;
 }
+
+.sign-in a {
+    color: turquoise;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
