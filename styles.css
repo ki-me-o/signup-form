@@ -76,8 +76,9 @@ a {
 
 .rundown,
 .account {
-    background-color:#d3cdb3;
+    background-color:#f9fafc;
     flex-grow: 1;
+    box-shadow: inset 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
 }
 
 .rundown {
@@ -91,6 +92,7 @@ a {
 
 
 .register {
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;  
@@ -115,6 +117,7 @@ a {
 input {
     border-radius: 5px;
     border-color: #E5E7EB;
+    background-color: #fefefe;
     height: 20px;
 }
 
@@ -128,15 +131,18 @@ input {
     background-color: turquoise;
     color: white;
     display: block;
-    width: 30%;
+    width: 25%;
     height: 20%;
     font-size: 150%;
     font-weight: bold;
+    border-radius: 10px;
+    border-color: #ffffff00;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+ 
 }
 
 .sign-in a {
     color: turquoise;
     font-weight: bold;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
 
