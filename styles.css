@@ -1,3 +1,8 @@
+@font-face {
+    font-family: AveriaSerif;
+    src: url(./resources/AveriaSerifGWF-Regular.ttf);
+}
+
 * {
     outline: 1px solid red;
 }
@@ -34,6 +39,7 @@ body {
 .logo {
     font-size:xxx-large;
     margin-top: 50%;
+    font-family: AveriaSerif;
 }
 
 .logo img {
