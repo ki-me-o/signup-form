@@ -138,6 +138,10 @@ input.error {
     border-color:red;
 }
 
+input.match {
+    border-color: green;
+}
+
 .account {
     display: flex;
     flex-direction: column;
