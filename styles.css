@@ -97,6 +97,7 @@ a {
     font-weight: 550;
 }
 
+
 .register {
     background-color: #ffffff;
     display: flex;
@@ -149,7 +150,7 @@ input.error {
     display: block;
     width: 25%;
     height: 20%;
-    font-size: 150%;
+    font-size: 100%;
     font-weight: bold;
     border-radius: 10px;
     border-color: #ffffff00;
