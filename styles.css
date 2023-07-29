@@ -142,6 +142,10 @@ input.match {
     border-color: green;
 }
 
+input.success {
+    border-color: green;
+}
+
 .account {
     display: flex;
     flex-direction: column;
